@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       < Chat ></Chat>
-      
+      <SharedFlies></SharedFlies>
     </div>
   );
 }

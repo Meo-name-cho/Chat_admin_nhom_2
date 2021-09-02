@@ -1,0 +1,99 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+  display: flex;
+}
+@media (max-width: 1023px) {
+  .sidebar {
+    display: block;
+  }
+}
+.sidebar__menu {
+  width: 90px;
+  background-color: white;
+  text-align: center;
+  border-right: 2px solid #bdb9b9;
+}
+@media (max-width: 1023px) {
+  .sidebar__menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.sidebar__menu--name .avt {
+  margin: 0;
+  width: 50px;
+  border-radius: 100px;
+  border: 1px solid black;
+  margin-bottom: 150px;
+}
+@media (max-width: 1023px) {
+  .sidebar__menu--name {
+    background-color: transparent;
+    color: #1dd30c;
+  }
+}
+.sidebar__listicon {
+  font-size: 20px;
+  color: lightgray;
+}
+.sidebar__listicon:hover {
+  color: #06b480;
+}
+@media (max-width: 1023px) {
+  .sidebar__listicon {
+    display: none;
+  }
+}
+.sidebar__listicon .btn__icon {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+@media (max-width: 1023px) {
+  .sidebar__listicon {
+    background-color: transparent;
+    color: #1dd30c;
+  }
+}
+.sidebar__listicon--item {
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.sidebar__listicon--item h4 {
+  margin: 0;
+}
+.sidebar__listicon--item:hover {
+  color: #06b480;
+}
+.sidebar__listicon--item1 {
+  border-right: 5px solid #06b480;
+}
+.sidebar__listicon--item1 h4 {
+  margin: 0;
+}
+.sidebar__listicon--item1:hover {
+  color: #06b480;
+}
+.sidebar__listicon--user {
+  padding: 10px;
+  cursor: pointer;
+  color: #06b480;
+  background-color: #bdffeb;
+  border-radius: 10px;
+  width: 40px;
+  margin-left: 15px;
+}
+.sidebar__listicon .avt {
+  margin: 0;
+  width: 50px;
+  border-radius: 100px;
+  border: 1px solid black;
+  margin-top: 150px;
+}
+
+/*# sourceMappingURL=index.css.map */
