@@ -1,11 +1,14 @@
 import './App.css';
-import SharedFlies from './component/sharedfiles'
+import Sidebar from './component/sidebar'
+
 function App() {
   return (
     <div className="App">
-      <SharedFlies></SharedFlies>
+      <Sidebar></Sidebar>
+      <h1>hello</h1>
     </div>
   );
 }
 
 export default App;
+
