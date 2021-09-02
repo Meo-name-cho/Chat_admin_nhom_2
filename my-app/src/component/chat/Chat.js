@@ -77,7 +77,7 @@ function Chat() {
                         <h5>are you going to business</h5>  
                     </div>
                     <div className="chat_content_right">
-                        <h5>11:15</h5>
+                        <h5>10:05</h5>
                     </div>
             </div>
 
