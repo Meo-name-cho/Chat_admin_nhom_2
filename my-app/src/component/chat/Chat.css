@@ -1,0 +1,137 @@
+.chat{
+    width: 300px;
+    height: 100%;
+    display : block;
+    padding-left: 10px;
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid rgb(243, 244, 246); ;
+    margin-left: 50px ;
+}
+.chat_head{
+    border-bottom: 2px solid rgb(239, 244, 244);
+    display :flex;
+    justify-content: left;
+    justify-items: center;
+    padding-top: 10px;
+}
+.chat_head > .MuiButtonBase-root {
+    background-color: rgb(236, 271, 245);
+    border-radius: 15px;
+    height : 30%;
+    display: flex;
+    justify-items: center;
+    cursor: pointer;
+}
+.chat_middle > h4{
+    text-align: center;
+    margin-top: 0px;
+}
+  
+.chat_middle{
+    display :flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top: 20px;
+}
+.chat_infor{
+  display:  flex;
+  flex-direction: column;
+  margin-left: 80px; 
+}
+.infor_top{
+    display: flex;
+    align-items: bottom;
+}
+.icon{
+    background-color: rgb(0, 208, 162);
+    height : 10px;
+    width: 10px;
+    border-radius: 100%;
+    position: bottom;
+}
+.chat_infor > .infor_top > img{
+    border-radius : 100%;
+    width: 100px;
+    height : 100px;
+
+}
+.chat_status{
+    border-radius: 30px;
+    display :flex;
+    align-items: center;
+    background-color: rgb(178, 240, 237);
+    width : 80px;
+    height : 30px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    margin-left: 80px;
+}
+.chat_status > h5{
+    text-align: center;
+    color : rgb(62, 171, 151);
+    margin: 0px 10px 0px 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.chat_search{
+    display :flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    
+    border-radius: 20px;
+    justify-content: space-between;
+}
+.chat_search > input{
+    border : none ;
+    background-color: transparent;
+    outline-width: 0;
+}
+.last_chat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last_chat_right{
+    display: flex;
+}
+.option{
+    margin-left: 10px;
+}
+.option > .MuiSvgIcon-root{
+    background-color: rgb(61, 215, 182);
+    border-radius: 10px;
+    color:#583131;
+    margin-left: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.chat_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(243, 248, 251);
+    padding: 5px 0px;
+    border-radius: 10px;
+    margin: 5px 0px;
+    height : 78px;
+}
+.chat_content_left > img{
+    width : 40px;
+    border-radius: 100%;
+}
+.chat_content_center > h5{
+    font-weight: 150;
+    margin: 0px;
+}
+.chat_content_center > h4{
+    margin: 2px 0px;
+}
+.chat_content_right{
+    display: flex;
+    justify-content: right;
+    margin : 0px;
+}
+.chat_content_right > h5{
+    font-weight: 150;
+}
