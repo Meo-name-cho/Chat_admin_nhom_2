@@ -3,6 +3,7 @@
     height: 100%;
     display : block;
     padding-left: 10px;
+    padding-right: 20px;
     border-radius: 20px 0px 0px 20px;
     border: 2px solid rgb(243, 244, 246); ;
     
@@ -12,7 +13,12 @@
     display :flex;
     justify-content: left;
     justify-items: center;
-    padding-top: 10px;
+    padding-top: 22px;
+    
+}
+.chat_head--h2{
+    margin-top: 3%;
+    margin-left: 3%;
 }
 .chat_head > .MuiButtonBase-root {
     background-color: rgb(236, 271, 245);
@@ -36,7 +42,7 @@
 .chat_infor{
   display:  flex;
   flex-direction: column;
-  margin-left: 80px; 
+  margin-left: 112px; 
 }
 .infor_top{
     display: flex;
@@ -64,7 +70,7 @@
     height : 30px;
     margin-bottom: 10px;
     padding: 0 10px;
-    margin-left: 80px;
+    margin-left: 121px;
 }
 .chat_status > h5{
     text-align: center;

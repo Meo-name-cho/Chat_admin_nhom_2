@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './index.scss'
 
-import bacgr from '../images/logo192.png'
+
 
 import * as IconName from "react-icons/gr";
 import { BsImage } from "react-icons/bs";
@@ -24,8 +24,8 @@ function BoxChat() {
                 <li>
                     <div className="sharedFiles__header">
                         <a href="/" className="sharedFiles__header--icon1"><IconName.GrFormNext /></a>
-                        <h3>shared files</h3>
-                    </div>
+                        <h3 className="sharedFiles__header--h3">shared files</h3>
+                    </div> 
                 </li>
                 <li>
                     <div className="sharedFiles__info">

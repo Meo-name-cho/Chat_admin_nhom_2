@@ -2,7 +2,7 @@
     width:20%;
     background-color: white;
     height: 82vh;
-    padding: 0 30px;
+    padding: 0 18px;
     transition: all 1s;
     font-size: 20px;
     position: fixed;
@@ -13,14 +13,18 @@
 
     &__header{
         display: flex;
-            border-bottom: 2px solid rgb(239, 244, 244);
+        border-bottom: 2px solid rgb(239, 244, 244);
+        margin-top: -6%;
         &--icon1{
             margin: 7% 3% 0 0;
-            font-size: 30px;
-            background-color: rgb(241, 240, 240);
+            font-size: 37px;
+            background-color: rgb(193, 243, 223);
             border-radius: 7px;
-            width: 15%;
+            width: 16%;
             height: 10%;
+        }
+        &--h3{
+            margin-top: 9%;
         }
     }
     &__info{
@@ -183,7 +187,7 @@
 
     ul li a:hover,
     ul li a.active {
-        background: rgb(193, 243, 223);
+        background: rgb(193, 243, 223)rgb(241, 240, 240);
     }
 
 

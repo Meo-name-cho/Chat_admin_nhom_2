@@ -30,7 +30,7 @@ function Chat() {
                 <IconButton>
                     <ArrowBackIosIcon />
                 </IconButton>
-                <h2>Chat</h2>
+                <h2 className="chat_head--h2">Chat</h2>
             </div>
             <div className="chat_middle">
                 <div className="chat_infor">
