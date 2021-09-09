@@ -1,11 +1,11 @@
 .chat{
-    width: 300px;
+    width: 20%;
     height: 100%;
     display : block;
     padding-left: 10px;
     border-radius: 20px 0px 0px 20px;
     border: 2px solid rgb(243, 244, 246); ;
-    margin-left: 50px ;
+    
 }
 .chat_head{
     border-bottom: 2px solid rgb(239, 244, 244);
@@ -110,7 +110,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(243, 248, 251);
+    
     padding: 5px 0px;
     border-radius: 10px;
     margin: 5px 0px;
@@ -134,4 +134,30 @@
 }
 .chat_content_right > h5{
     font-weight: 150;
+}
+
+
+ul {
+    padding: 0;
+}
+
+ul li {
+        list-style-type: none;
+}
+
+ul li  a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 25px;
+            margin-top: 3px;
+            cursor: pointer;
+
+        }
+    
+
+
+ul li a:hover,
+ul li a.active {
+    background-color: rgb(243, 248, 251);
 }

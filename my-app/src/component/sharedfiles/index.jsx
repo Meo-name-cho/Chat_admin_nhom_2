@@ -15,12 +15,7 @@ import barg from '../images/logo192.png'
 
 function BoxChat() {
     const [Info, setInfo] = useState([
-        { name: "Real estate deals", name1: "10 members", img: barg },
-        { name: "Real estate deals", name1: "10 members", img: barg },
-        { name: "Real estate deals", name1: "10 members", img: barg },
-        { name: "Real estate deals", name1: "10 members", img: barg },
-        { name: "Real estate deals", name1: "10 members", img: barg },
-        { name: "Real estate deals", name1: "10 members", img: barg },
+        { name: "Real estate deals", name1: "10 members", img: barg }
 
     ])
     return (
@@ -31,9 +26,7 @@ function BoxChat() {
                         <a href="/" className="sharedFiles__header--icon1"><IconName.GrFormNext /></a>
                         <h3>shared files</h3>
                     </div>
-
                 </li>
-                <hr />
                 <li>
                     <div className="sharedFiles__info">
                         <img src={Info[0].img} alt="" className="sharedFiles__info--img" />
