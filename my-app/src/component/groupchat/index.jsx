@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect,useRef } from 'react'
 import { useDispatch, useSelector } from "react-redux";
 import {useParams} from "react-router-dom"
 import { AddUsers, loadUsers2 } from '../redux/actions';
 import './index.scss'
+
 
 function EditUser() {
 
@@ -10,16 +11,12 @@ function EditUser() {
     const { listmes } = useSelector((state) => state.data)
     console.log("Lits cua messages",listmes)
     let {id}=useParams()
-    // let history = useHistory();
-  
-  
+
+    const messageRef = useRef();
     const [state, setState] = useState({
         name: "",
-     
     });
-  
     const { name } = state;
-  
     const handleInputChange = (e) => {
         let { name, value } = e.target;
         setState({
@@ -27,7 +24,6 @@ function EditUser() {
             [name]: value,
         });
     }
-  
     const [error, setError] = useState("");
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -36,13 +32,20 @@ function EditUser() {
         }
         else {
             dispatch(AddUsers(state,id));
-            
             // history.push("");
             setError("")
         }
     }
+    useEffect(()=>{
+      messageRef.current?.scrollIntoView(
+        {
+          behavior: 'smooth',
+          // block: 'end',
+          // inline: 'end'
+        })
+    },[listmes])
     useEffect(() => {
-        dispatch(loadUsers2(id));
+        dispatch(loadUsers2(id)); 
     }, [id]);
   
     return (
@@ -113,7 +116,9 @@ function EditUser() {
                 </div>
                 <div className="triangle" />
                 <div className="message">
+                <div ref={messageRef}></div>
                   {use.name}
+                  
                 </div>
               </li>
             ))}
